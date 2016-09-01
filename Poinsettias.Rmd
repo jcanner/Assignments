@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE, comment="")
 ```
 
 ```{r}
-Poinsettias <- read.csv("C:/Users/Judith/Desktop/STAT 210/Poinsettias.csv")
+Poinsettias <- read.csv("Poinsettias.csv")
 head(Poinsettias)
 ```
 
