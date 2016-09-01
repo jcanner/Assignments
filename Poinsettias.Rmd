@@ -1,0 +1,24 @@
+---
+title: "Poinsettias"
+author: "Judith Canner"
+date: "September 1, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, comment="")
+```
+
+```{r}
+load("poin.RDA")
+head(Poinsettias)
+```
+
+Here is a table and a barplot
+```{r}
+table(Poinsettias$color)
+barplot(table(Poinsettias$color), xlab="Color", main="Poinsettia Colors")
+```
+
+
+
